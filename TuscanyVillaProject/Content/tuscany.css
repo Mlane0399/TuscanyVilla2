@@ -1,0 +1,218 @@
+﻿body {
+    background-color:#EEEEEE;
+}
+/*JUMBOTRON*/
+.jumbotron{
+    margin-bottom:0px;
+    font-family:'Montserrat', sans-serif;
+}
+.jumbotron p{
+   font-family:'Pacifico', cursive;
+}
+/*NAVBAR*/
+.firstcont{
+    font-family:'Montserrat', sans-serif; 
+    padding-right:0; height:50px;
+     padding-left:0;
+}
+.navbar-default{
+    margin-bottom:0px; 
+    border:none; 
+    position:relative;
+}
+.navbar-brand{
+    padding:0px;
+    text-align:center;
+}
+a.navbar-brand{
+    background-color:#49AD9F; 
+    color:white; 
+    font-size:14px;  
+    padding:6px;
+    margin-left:0 auto;
+    margin-right: 0 auto;
+    width:auto;
+}
+#property{
+     background-color:#81BBDA; 
+     color:white;
+     font-family:'Montserrat', sans-serif;
+}
+/*CENTERING THE INNER NAVBAR*/
+      #centered{
+      display:inline-block;
+      float:none;
+  }
+  #myNavbar{
+      text-align:center;
+  }
+  /*ESTABLISHING GRID SYSTEM STYLES*/
+  .content{
+      border:solid;
+      border-color:#E5E0E4;
+      border-width:1px;
+  }
+  .content .col-lg-3.col-md-4.col-sm-12.col-xs-12{
+      padding-right:0px;
+      padding-left:0px;
+      border:solid;
+      border-color:#E5E0E4;
+      border-width:1px;
+      text-align:center;    
+  }
+  p{
+         font-family:'Montserrat', sans-serif;
+    font-size:12px;
+    text-align:center;
+  }
+  /*ALL ROWS HAVE NO BOTTOM MARGIN*/
+  .row{
+      margin-bottom:0px;
+  }
+  /*WELL STYLINGS*/
+  .well{
+    background:none;
+    border:none;
+    color:#6DD1BC;
+    font-family:'Montserrat', sans-serif;
+    font-size:26px;
+    text-align:center;
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+#well1style {
+    background-color:#3C4343; 
+        opacity:0.7;
+        text-align:center; 
+}
+#well2style{
+background-color:white;
+opacity:0.7;
+text-align:left;
+}
+#well1{
+    border:none;
+    color:white; 
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 26px; 
+    text-align: center;
+    margin-bottom: 0px;
+     background-repeat: no-repeat;
+     padding-bottom:30px;
+     padding-top:30px;
+}
+#well2{
+    border:none;
+    color:#3C4343; 
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 26px; 
+    text-align: center;
+    margin-bottom: 0px;
+     background-repeat: no-repeat;
+     padding-bottom:30px;
+     padding-top:30px;
+}
+/*MAIN IMG FOR FIRST ROW FIRST COLUMN*/
+#mainImg {
+    background-image: url('../Images/mainImg.jpeg');
+    max-height:100%;
+    max-width:100%;
+    position:relative;
+    text-align:center;
+     background-size: cover;
+}
+/*SECOND COLUMN FIRST ROW IMAGE*/
+#secondImg {
+background-image: url('images/Versilia.jpg');
+  max-height:100%;
+    max-width:100%;
+    position:relative;
+    text-align:center;
+    background-size: cover;
+    height:488px;
+}
+  /*TURNING EACH GRID ITEM INTO A SQUARE*/
+.squarenone {
+    background-color:white;
+    width: 100%;
+    padding:0%;
+    margin:0 auto;
+    background-size: cover;
+    text-align:center;
+    height: 409px;
+}
+.square1{
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url('../Images/Villa-Vanna.jpg');
+    background-size: cover;
+}
+.square2 {
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url('../Images/bedroom1.jpg');
+    background-size: cover;
+}
+.square3 {
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url('../Images/pool1.jpg');
+    background-size: cover;
+}
+.square4 {
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url('../Images/pool2.jpg');
+    background-size: cover;
+}
+.square5 {
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url('../Images/Villa-Rucellai-Toscani1.jpg');
+    background-size: cover;
+}
+.square6 {
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url('../Images/tuscany-villas-sant-anna.jpg');
+    background-size: cover;
+}
+.squareblue{
+    background-color:#6DCDBB;
+    width: 100%;
+    padding:0%;
+    margin:0 auto;
+    background-size: cover;
+    text-align:center;
+    height: 409px;
+}
+.squareblue h4{
+    color:white;
+}
+.squarefinal {
+    width: 100%;
+    padding-bottom: 100%;
+    height: 409px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-align:center;
+    background-image: url('../Images/box_partners.png');
+}
+/*FOOTER STYLINGS*/
+.footcont{
+     padding-right:0; 
+     padding-left:0;
+}
+#gray{
+            background-color:#CFD1CF;
+    height:40px;
+    }
+.page-footer{
+        height:60px;
+        background-color:#E3DFE3;
+    }
+.page-footer p {
+     float:left;
+             font-size:9px;
+        color: #878A8B;
+        }
